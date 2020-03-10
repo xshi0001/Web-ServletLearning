@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+
+
+        <servlet-name>ServletDemo</servlet-name>
+
+        <servlet-class>com.itheima.servlet.demo.ServletDemo</servlet-class>
+        <!--指定Servlet的创建时机
+          1.第一次被访问时，创建
+              * <load-on-startup>的值为负数
+          2.在服务器启动时，创建
+              * <load-on-startup>的值为0或正整数
+      -->
+
+        <load-on-startup>-5</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo</servlet-name>
+        <url-pattern>/demo</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>HelloForm</servlet-name>
+        <servlet-class>com.itheima.servlet.demo.HelloForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloForm</servlet-name>
+        <url-pattern>/TomcatTest/HelloForm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckBox</servlet-name>
+        <servlet-class>com.itheima.servlet.demo.CheckBox</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckBox</servlet-name>
+        <url-pattern>/TomcatTest/CheckBox</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReadParams</servlet-name>
+        <servlet-class>com.itheima.servlet.demo.ReadParams</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadParams</servlet-name>
+        <url-pattern>/TomcatTest/ReadParams</url-pattern>
+    </servlet-mapping>
+
+    <!--  servletContextListener  -->
+    <listener>
+        <listener-class>com.itheima.servlet.listener.Object.ServletCxListener</listener-class>
+    </listener>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <login-config>
+        <auth-method>BASIC</auth-method>
+    </login-config>
+
+    <session-config>
+        <session-timeout>0</session-timeout>
+    </session-config>
+    <context-param>
+        <param-name>initParam</param-name>
+        <param-value>listening</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>com.itheima.servlet.listener.attritube.MySevletContextAttritubeListener</listener-class>
+    </listener>
+
+    <listener>
+        <listener-class>com.itheima.servlet.listener.attritube.MyServletRequestAttritubeListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>com.itheima.servlet.listener.attritube.MyHttpSessionAttritubeListener</listener-class>
+    </listener>
+
+
+</web-app>
