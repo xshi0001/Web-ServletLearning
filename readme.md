@@ -19,7 +19,7 @@ Servlet（Server Applet），全称Java Servlet，未有中文译文。是用Jav
 Servlet运行于支持Java的应用服务器中。从实现上讲，Servlet可以响应任何类型的请求，但绝大多数情况下Servlet只用来扩展基于HTTP协议的Web服务器。
 最早支持Servlet标准的是JavaSoft的Java Web Server。此后，一些其它的基于Java的Web服务器开始支持标准的Servlet。
 
-**Keywords ：**  web动态资源;Servlet 3;Tomcat8;
+**Keywords ：**  web动态资源;Servlet 3;组件与容器;
 
 <!--动态资源:每个用户访问相同资源后，得到的结果可能不一样。称为动态资源。动态资源被访问后，需要先转换为静态资源，在返回给浏览器-->
 <!--常用的动态资源框架* 如：servlet/jsp,php,asp....-->

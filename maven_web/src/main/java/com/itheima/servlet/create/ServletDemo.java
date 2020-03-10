@@ -1,4 +1,4 @@
-package com.itheima.servlet.demo;
+package com.itheima.servlet.create;
 
 import javax.servlet.*;
 import java.io.IOException;
@@ -6,7 +6,11 @@ import java.io.IOException;
 /**
  * @program: maven_tomcat
  * @description: servlet 快速入门-servlet创建，实现接口
- * <p>
+ *
+ *   什么是servler生命周期？分为几个阶段？ 容器实例化 ----》初始化init-----》就绪调用service --->销毁 destory
+ *
+ *
+ *
  * Servlet的生命周期:从Servlet被创建到Servlet被销毁的过程
  * 一次创建，到处服务，一个Servlet只会有一个对象，服务所有的请求
  *

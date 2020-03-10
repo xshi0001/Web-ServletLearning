@@ -9,7 +9,7 @@
 
         <servlet-name>ServletDemo</servlet-name>
 
-        <servlet-class>com.itheima.servlet.demo.ServletDemo</servlet-class>
+        <servlet-class>com.itheima.servlet.create.ServletDemo</servlet-class>
         <!--指定Servlet的创建时机
           1.第一次被访问时，创建
               * <load-on-startup>的值为负数
