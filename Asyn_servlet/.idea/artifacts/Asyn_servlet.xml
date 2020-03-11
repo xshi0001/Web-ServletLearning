@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Asyn_servlet">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Asyn_servlet</output-path>
+    <root id="root" />
+  </artifact>
+</component>

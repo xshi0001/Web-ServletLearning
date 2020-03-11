@@ -7,8 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maven_web" />
+        <module name="login_verification" />
+        <module name="Asyn_servlet" />
         <module name="online_session_statis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="login_verification" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

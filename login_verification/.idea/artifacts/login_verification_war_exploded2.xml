@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="login_verification:war exploded">
+    <output-path>$PROJECT_DIR$/target/servlet-totals</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>login_verification</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="login_verification" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/servlet-totals/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="login_verification/web/Web" />
+    </root>
+  </artifact>
+</component>

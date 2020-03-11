@@ -14,6 +14,8 @@
     <modules>
         <module>maven_web</module>
         <module>online_session_statis</module>
+        <module>Asyn_servlet</module>
+        <module>login_verification</module>
     </modules>
 
     <name>servlet-totals Maven Webapp</name>

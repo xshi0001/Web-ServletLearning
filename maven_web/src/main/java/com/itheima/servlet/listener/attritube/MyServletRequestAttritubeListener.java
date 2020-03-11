@@ -2,6 +2,7 @@ package com.itheima.servlet.listener.attritube;
 
 import javax.servlet.ServletRequestAttributeEvent;
 import javax.servlet.ServletRequestAttributeListener;
+import javax.servlet.annotation.WebListener;
 
 /**
  * @program: maven_tomcat
@@ -9,6 +10,7 @@ import javax.servlet.ServletRequestAttributeListener;
  * @author: JClearLove
  * @Date: 2020/03/10 08:51
  */
+@WebListener
 public class MyServletRequestAttritubeListener implements ServletRequestAttributeListener {
 
     @Override

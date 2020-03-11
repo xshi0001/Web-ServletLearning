@@ -2,6 +2,7 @@ package com.itheima.servlet.listener.attritube;
 
 import javax.servlet.ServletContextAttributeEvent;
 import javax.servlet.ServletContextAttributeListener;
+import javax.servlet.annotation.WebListener;
 
 /**
  * @program: maven_tomcat
@@ -9,7 +10,7 @@ import javax.servlet.ServletContextAttributeListener;
  * @author: JClearLove
  * @Date: 2020/03/10 08:49
  */
-
+@WebListener
 public class MySevletContextAttritubeListener implements ServletContextAttributeListener {
 
     @Override

@@ -9,7 +9,7 @@
 
         <servlet-name>ServletDemo</servlet-name>
 
-        <servlet-class>com.itheima.servlet.create.ServletDemo</servlet-class>
+        <servlet-class>com.itheima.servlet.create.CreateServletByImplementServlet</servlet-class>
         <!--指定Servlet的创建时机
           1.第一次被访问时，创建
               * <load-on-startup>的值为负数
@@ -25,33 +25,6 @@
     </servlet-mapping>
 
 
-    <servlet>
-        <servlet-name>HelloForm</servlet-name>
-        <servlet-class>com.itheima.servlet.demo.HelloForm</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>HelloForm</servlet-name>
-        <url-pattern>/TomcatTest/HelloForm</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>CheckBox</servlet-name>
-        <servlet-class>com.itheima.servlet.demo.CheckBox</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>CheckBox</servlet-name>
-        <url-pattern>/TomcatTest/CheckBox</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>ReadParams</servlet-name>
-        <servlet-class>com.itheima.servlet.demo.ReadParams</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ReadParams</servlet-name>
-        <url-pattern>/TomcatTest/ReadParams</url-pattern>
-    </servlet-mapping>
-
     <!--  servletContextListener  -->
     <listener>
         <listener-class>com.itheima.servlet.listener.Object.ServletCxListener</listener-class>
@@ -63,6 +36,7 @@
         <auth-method>BASIC</auth-method>
     </login-config>
 
+
     <session-config>
         <session-timeout>0</session-timeout>
     </session-config>
@@ -71,16 +45,37 @@
         <param-value>listening</param-value>
     </context-param>
 
-    <listener>
-        <listener-class>com.itheima.servlet.listener.attritube.MySevletContextAttritubeListener</listener-class>
-    </listener>
 
-    <listener>
-        <listener-class>com.itheima.servlet.listener.attritube.MyServletRequestAttritubeListener</listener-class>
-    </listener>
-    <listener>
-        <listener-class>com.itheima.servlet.listener.attritube.MyHttpSessionAttritubeListener</listener-class>
-    </listener>
+    <!--  过滤器 也可以使用 @WebFilter -->
+    <!--    <filter>
+            <filter-name>ServletRedirectNewPagesFilter</filter-name>
+            <filter-class>com.itheima.servlet.filter.ServletRedirectNewPagesFilterctNewPagesFilter</filter-class>
+            <init-param>
+                <param-name>Site</param-name>
+                <param-value>菜鸟教程</param-value>
+            </init-param>
+        </filter>
 
+        <filter-mapping>
+            <filter-name>ServletRedirectNewPagesFilter</filter-name>
+            &lt;!&ndash;  过滤器适用于所有的 Servlet，因为我们在配置中指定 /*      &ndash;&gt;
+            <url-pattern>/maven_web/createServletByExtendsHttpServlet</url-pattern>
+        </filter-mapping>-->
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+
+
+<!--    <filter>
+        <filter-name>ErrorFilter</filter-name>
+        <filter-class>com.itheima.servlet.filter.ErrorPageFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ErrorFilter</filter-name>
+        <url-pattern>/error.jsp</url-pattern>
+        <dispatcher>ERROR</dispatcher>
+    </filter-mapping>-->
 
 </web-app>

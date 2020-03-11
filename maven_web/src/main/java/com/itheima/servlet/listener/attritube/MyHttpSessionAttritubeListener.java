@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSessionBindingEvent;
  * @author: JClearLove
  * @Date: 2020/03/10 08:25
  */
-
+@WebListener
 public class MyHttpSessionAttritubeListener implements HttpSessionAttributeListener {
 
     @Override
