@@ -16,28 +16,27 @@ import javax.servlet.http.HttpSession;
 
 
 /**
- *
  * 设计Servlet，登陆、失败和成功页面，此时问题，当用户直接输入成功命令的url后，仍然能够成功
- *
- *
+ * <p>
+ * <p>
  * 设计设计过滤操作，查看当前页面是否已经成功登陆，如果没有，要跳转到登陆页面，登陆完之后才能继续操作
- *
+ * <p>
  * 成功页面--》检查是否包含用户名信息，有-已经登陆，没-跳转登陆界面
  * 如果跳转到登陆页面，因登陆界面没有用户名信息，为filter-urlPatterns = "/*",此时filter会一直死循环到登陆url
- *
+ * <p>
  * 因此需要判定当前的url是否包含login.jsp信息，则不过滤
- *
+ * <p>
  * 当用户输入错误登陆账号或者密码的时候，没有跳转到失败界面，反而一直在登陆界面，因为又被filter拦截到登陆界面
- *
+ * <p>
  * 还有错误ERROR页面等...
- *
+ * <p>
  * 此时需要修改filter的config，避免过滤login.jso、fail.jsp、
- *
  *
  * @author xshi0
  */
 @WebFilter(filterName = "loginInServlet", urlPatterns = {"/*"}, initParams = {
-        @WebInitParam(name = "noLoginPaths", value = "login.jsp;fail.jsp;LoginServlet"),
+        @WebInitParam(name = "noLoginPaths", value = "login.jsp;fail.jsp;loginVerificationByDataBaseServlet;" +
+                "failServlet;loginVerificationByFilterServlet;successServlet;login.html"),
         @WebInitParam(name = "charset", value = "UTF-8")
 })
 public class LoginFilter implements Filter {

@@ -9,9 +9,9 @@ import java.io.IOException;
 
 /**
  * @program: servlettotals
- * @description: 继承 GenericServlet 类,实现了 Servlet 接口 service 的方法
+ * @description: 继承 GenericServlet 类,实现了 Servlet 接口 com.itheima.service 的方法
  *
- * GenericServlet 是一个抽象类，实现了 Servlet 接口，并且对其中的 init() 和 destroy() 和 service() 提供了默认实现。
+ * GenericServlet 是一个抽象类，实现了 Servlet 接口，并且对其中的 init() 和 destroy() 和 com.itheima.service() 提供了默认实现。
  * 在 GenericServlet 中，主要完成了以下任务：
  *
  *  将 init() 中的 ServletConfig 赋给一个类级变量，可以由 getServletConfig 获得；
