@@ -7,39 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be60eb5a-956c-456f-bfea-ca2a888dc8c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/FailServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/LoginVerificationByDataBaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/LoginVerificationByFilterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/SuccessServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/test/java/com/itheima/mapper/LoginMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_verification/src/test/java/com/itheima/mapper/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_verification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/login_verification/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_verification/login_verification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/login_verification/login_verification.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_verification/login_verification.md" beforeDir="false" afterPath="$PROJECT_DIR$/login_verification/login_verification.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_verification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/login_verification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/LoginInServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_verification/src/main/resources/image_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/login_verification/src/main/resources/img/image_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_verification/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/login_verification/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/create/CreateServletByExtendsGenericServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/create/CreateServletByExtendsGenericServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/create/CreateServletByImplementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/create/CreateServletByImplementServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Asyn_servlet_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Asyn_servlet_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Asyn_servlet_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,6 +65,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login_verification/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,7 +111,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="513">
-                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                <caret line="27" selection-start-line="27" selection-end-line="27" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState>
@@ -143,15 +120,6 @@
                   </previewPanelState>
                 </markdownNavigatorState>
               </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/mapper/LoginMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -177,7 +145,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -185,7 +153,7 @@
               <second_editor>
                 <markdownNavigatorState>
                   <previewPanelState version="2.9.0">
-                    <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:107}}</jsState>
+                    <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:107.5}}</jsState>
                   </previewPanelState>
                 </markdownNavigatorState>
               </second_editor>
@@ -1129,7 +1097,7 @@
       <workItem from="1583903464878" duration="2149000" />
       <workItem from="1583909554170" duration="53000" />
       <workItem from="1583910955412" duration="5692000" />
-      <workItem from="1583916677327" duration="9124000" />
+      <workItem from="1583916677327" duration="9771000" />
     </task>
     <servers />
   </component>
@@ -1163,7 +1131,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35641000" />
+    <option name="totallyTimeSpent" value="36288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
@@ -1185,27 +1153,27 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.656917" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.31479642" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
-      <window_info anchor="bottom" id="Tail" order="17" />
-      <window_info anchor="bottom" id="Run" order="18" sideWeight="0.49859944" weight="0.39225423" />
-      <window_info anchor="bottom" id="Duplicates" order="19" weight="0.32903227" />
-      <window_info anchor="bottom" id="Application Servers" order="20" weight="0.32959184" />
-      <window_info anchor="bottom" id="SBT Console" order="21" />
-      <window_info anchor="bottom" id="Sequence" order="22" />
-      <window_info anchor="bottom" id="JRebel Executor" order="23" />
-      <window_info anchor="bottom" id="JRebel Console" order="24" side_tool="true" />
-      <window_info anchor="bottom" id="Stack trace to UML" order="25" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="26" />
-      <window_info anchor="bottom" id="Database Console" order="27" weight="0.32969216" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.5960474" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.31479642" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
+      <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="bottom" id="Run" order="17" sideWeight="0.49859944" weight="0.39225423" />
+      <window_info anchor="bottom" id="Duplicates" order="18" weight="0.32903227" />
+      <window_info anchor="bottom" id="Application Servers" order="19" weight="0.32959184" />
+      <window_info anchor="bottom" id="SBT Console" order="20" />
+      <window_info anchor="bottom" id="Sequence" order="21" />
+      <window_info anchor="bottom" id="JRebel Executor" order="22" />
+      <window_info anchor="bottom" id="JRebel Console" order="23" side_tool="true" />
+      <window_info anchor="bottom" id="Stack trace to UML" order="24" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="25" />
+      <window_info anchor="bottom" id="Database Console" order="26" weight="0.32969216" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="27" visible="true" weight="0.8822134" />
       <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5007728" side_tool="true" type="SLIDING" weight="0.20064034" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -1226,6 +1194,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Asyn_servlet/pom.xml">
@@ -1266,13 +1260,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.git/info/exclude">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maven_web/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -1512,7 +1499,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="513">
-            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <caret line="27" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState>
@@ -1531,10 +1518,17 @@
           <second_editor>
             <markdownNavigatorState>
               <previewPanelState version="2.9.0">
-                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:107}}</jsState>
+                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:107.5}}</jsState>
               </previewPanelState>
             </markdownNavigatorState>
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
