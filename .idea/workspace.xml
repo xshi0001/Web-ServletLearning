@@ -2,12 +2,42 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="login_verification:war exploded" />
+      <artifact name="servletcontext-response:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be60eb5a-956c-456f-bfea-ca2a888dc8c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/servletContext-response.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/servletcontext-response.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/download/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/EncodingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ErrorFromServletCode5X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ForWardInTheSameSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/OutCharOrByteStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/RedirectLinksByDifferentUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/TestRedirectWhetherSharedDataSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/AchieveFilesRealPathIncludeInDifferentPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/AchieveMimeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/GetAttributeOnSharedDataSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/SetAttributeOnSharedDataSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/TwoWaysToAchieveServletContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/utils/DownLoadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/webapp/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/webapp/download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/webapp/htmls/location2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/webapp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/webapp/img/九尾.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/webapp/location.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servletcontext-response/src/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +47,7 @@
     <ignored path="$PROJECT_DIR$/Asyn_servlet/target/" />
     <ignored path="$PROJECT_DIR$/login-verification/target/" />
     <ignored path="$PROJECT_DIR$/login_verification/target/" />
+    <ignored path="$PROJECT_DIR$/servletcontext-response/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,80 +95,30 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/CheckCodeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="274">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/src/main/resources/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/download.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+            <state relative-caret-position="70">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/pojo/Login.java">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/utils/DownLoadUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/login_verification.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/login_verification.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="513">
-                <caret line="27" selection-start-line="27" selection-end-line="27" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState>
-                  <previewPanelState version="2.9.0">
-                    <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:223.50000883}}</jsState>
-                  </previewPanelState>
-                </markdownNavigatorState>
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/src/test/java/com/itheima/mapper/LoginMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/LoginVerificationByDataBaseServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="992">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="70">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,26 +127,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <markdownNavigatorState>
-                  <previewPanelState version="2.9.0">
-                    <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:107.5}}</jsState>
-                  </previewPanelState>
-                </markdownNavigatorState>
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/EncodingProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_verification/src/test/java/com/itheima/mapper/UserMapperTest.java">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ErrorFromServletCode5X.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="31" column="67" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="67" />
+            <state relative-caret-position="70">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ForWardInTheSameSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/OutCharOrByteStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/RedirectLinksByDifferentUrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/TestRedirectWhetherSharedDataSpace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,6 +201,7 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="md" />
       </list>
     </option>
   </component>
@@ -186,6 +209,7 @@
     <findStrings>
       <find>javax.servlet</find>
       <find>parameterType=&quot;Login&quot;</find>
+      <find>fis</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -197,37 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/create/CreateServletByExtendsGenericServlet.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/create/CreateServletByExtendsHttpServlet.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/form/CheckBox.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/form/ReadParams.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/header/FromClientResquestHeader.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/header/FromClientRequestHeader.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/header/FromServerResponseHeader.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/status/ServletHttpStatusCode.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/filter/ServletFliter.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/filter/ServletFilter.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/cookie/HelloForm.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/cookie/HelloForm2.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/webapp/setcookie.html" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/form/HelloForm.java" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/webapp/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/java/com/itheima/servlet/create/CreateServletByImplementServlet.java" />
-        <option value="$PROJECT_DIR$/maven_web/pom.xml" />
-        <option value="$PROJECT_DIR$/maven_web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/Asyn_servlet/src/main/java/com/itheima/filter/AsynFilter.java" />
-        <option value="$PROJECT_DIR$/Asyn_servlet/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/Asyn_servlet/pom.xml" />
-        <option value="$PROJECT_DIR$/Asyn_servlet/src/main/java/com/itheima/servlet/AsynServlet.java" />
-        <option value="$PROJECT_DIR$/login-verification/pom.xml" />
-        <option value="$PROJECT_DIR$/login_verification/src/main/webapp/sucess.jsp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/login_verification/src/main/resources/sqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/mapper/UserMapperTest.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5381ccca-476e-48a1-bb34-c326ce5571f6/console.sql" />
         <option value="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/pojo/User.java" />
         <option value="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/LoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/impl/LoginService.java" />
@@ -248,6 +241,37 @@
         <option value="$PROJECT_DIR$/login_verification/src/test/java/com/itheima/mapper/UserMapperTest.java" />
         <option value="$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/LoginVerificationByDataBaseServlet.java" />
         <option value="$PROJECT_DIR$/login_verification/login_verification.md" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/webapp/location.html" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/webapp/download.html" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/webapp/register.html" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ResponseDemo1.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/download/DownloadServlet.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/webapp/htmls/location2.html" />
+        <option value="$PROJECT_DIR$/servletcontext-response/servletContext-response.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/servletcontext-response/pom.xml" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/ServletContextDemo1.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/TwoWaysToAchieveServletContext.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/ServletContextDemo5.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/AchieveFilesRealPathIncludeInDifferentPoints.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/AchieveMimeType.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/SetAttributeOnSharedDataSpace.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/ServletContextDemo4.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/GetAttributeOnSharedDataSpace.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ServletDemo1.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ErrorFromServletCode5X.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/RedirectLinksByDifferentUrl.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ResponseDemo2.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/TestRedirectWhetherSharedDataSpace.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ResponseDemo3.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ForWardInTheSameSession.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ResponseDemo4.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/EncodingProblem.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ResponseDemo5.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/OutCharOrByteStream.java" />
+        <option value="$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/CheckCodeServlet.java" />
       </list>
     </option>
   </component>
@@ -310,6 +334,15 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="servlet-demo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="servlet-demo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="servlet-totals Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -322,6 +355,7 @@
     </treeState>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="349" />
     <option name="y" value="366" />
@@ -333,6 +367,13 @@
     <option name="width" value="1546" />
     <option name="height" value="840" />
 >>>>>>> dev
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="66" />
+    <option name="y" value="58" />
+    <option name="width" value="1938" />
+    <option name="height" value="1059" />
+>>>>>>> dev
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -343,18 +384,6 @@
     </navigator>
     <panes>
       <pane id="Course" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="servlettotals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servlet-totals" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="CatdeaLogs" />
       <pane id="PackagesPane">
         <subPane>
@@ -376,6 +405,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,7 +424,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/login_verification/src/main/webapp" />
+>>>>>>> dev
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/servletcontext-response/src/webapp" />
 >>>>>>> dev
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -403,6 +438,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.service.impl" />
+      <recent name="com.itheima.service" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.itheima.mapper" />
     </key>
@@ -412,25 +451,22 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.itheima" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\login_verification\src\main\resources\img" />
-      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\login_verification\src\main\java\com\itheima\mapper" />
-      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\maven_web\src\main\webapp" />
-      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\servletcontext-response\src\webapp" />
+      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\servletcontext-response\src\main\java" />
       <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\login_verification\src\main\webapp" />
       <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\login_verification\src\main\java\com\itheima\servlet" />
       <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\login_verification\src\main\resources" />
-      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\Asyn_servlet\src\main\java\com\itheima\servlet" />
-      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\Asyn_servlet\src\main\java\com\itheima" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itheima.service.impl" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.itheima.service.impl" />
-      <recent name="com.itheima.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\servletcontext-response\src" />
+      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\login_verification\src\main\resources\img" />
+      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\login_verification\src\main\java\com\itheima\mapper" />
+      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals\maven_web\src\main\webapp" />
+      <recent name="D:\BaiduNetdiskDownload\day13_Tomcat&amp;Servlet\code\servlet-totals" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -445,7 +481,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.selectByPrimaryKey">
+  <component name="RunManager" selected="Tomcat Server.servletContext">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -1068,6 +1104,146 @@
         </option>
       </method>
     </configuration>
+    <configuration name="servletContext" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="servletcontext-response:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/servletcontext_response" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_servlettotals_5" />
+        <option name="HTTP_PORT" value="9294" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="javadebug" />
+        <option name="visualVMId" value="739070814966100" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="servletcontext-response:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1079,11 +1255,12 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UserMapperTest" />
+      <item itemvalue="JUnit.UserMapperTest.selectByPrimaryKey" />
+      <item itemvalue="Tomcat Server.servletContext" />
       <item itemvalue="Tomcat Server.Tomcat online_session_statis" />
       <item itemvalue="Tomcat Server.Tomcat-maven_web" />
       <item itemvalue="Tomcat Server.Tomcat-aysn_servlet" />
       <item itemvalue="Tomcat Server.Tomcat -LogIn" />
-      <item itemvalue="JUnit.UserMapperTest.selectByPrimaryKey" />
     </list>
     <recent_temporary>
       <list>
@@ -1143,12 +1320,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36288000" />
+    <option name="totallyTimeSpent" value="41651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <frame x="66" y="58" width="1938" height="1059" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" x="2258" y="107" width="521" height="901" id="Project" order="0" sideWeight="0.5014006" visible="true" weight="0.22376789" />
+      <window_info content_ui="combo" x="2258" y="107" width="521" height="901" id="Project" order="0" sideWeight="0.5014006" visible="true" weight="0.28647497" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1175,7 +1352,7 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.31479642" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Run" order="17" sideWeight="0.49859944" weight="0.39225423" />
+      <window_info anchor="bottom" id="Run" order="17" sideWeight="0.49859944" weight="0.4465479" />
       <window_info anchor="bottom" id="Duplicates" order="18" weight="0.32903227" />
       <window_info anchor="bottom" id="Application Servers" order="19" weight="0.32959184" />
       <window_info anchor="bottom" id="SBT Console" order="20" />
@@ -1185,12 +1362,12 @@
       <window_info anchor="bottom" id="Stack trace to UML" order="24" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="25" />
       <window_info anchor="bottom" id="Database Console" order="26" weight="0.32969216" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="27" visible="true" weight="0.8822134" />
+      <window_info anchor="bottom" id="Terminal" order="27" weight="0.8822134" />
       <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5007728" side_tool="true" type="SLIDING" weight="0.20064034" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.2937208" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.29339722" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
@@ -1232,176 +1409,23 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Asyn_servlet/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Asyn_servlet/src/main/java/com/itheima/filter/AsynFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/fail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/sucess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Asyn_servlet/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="82" column="12" selection-start-line="61" selection-start-column="3" selection-end-line="82" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Asyn_servlet/src/main/java/com/itheima/servlet/AsynServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="282" column="12" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/mapper/UserMapperTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="144" column="36" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/mapper/UserMapper.xml" />
-    <entry file="das://5381ccca-476e-48a1-bb34-c326ce5571f6/schema/HeiMa/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="f87e71e5-09d1-4df1-bde9-8af1a9aa9c4a">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/UserService.java" />
-    <entry file="das://5381ccca-476e-48a1-bb34-c326ce5571f6/schema/HeiMa/table/user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5381ccca-476e-48a1-bb34-c326ce5571f6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/pojo/User.java" />
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/resources/img/image_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://5381ccca-476e-48a1-bb34-c326ce5571f6/schema/HeiMa/table/login">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="f87e71e5-09d1-4df1-bde9-8af1a9aa9c4a">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/LoginServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/FailServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/SuccessServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/servlet/LoginVerificationByFilterServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/login.html" />
     <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33">
@@ -1416,19 +1440,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/target/classes/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_verification/target/classes/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/login_verification/target/classes/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/login_verification/target/classes/sqlMapConfig.xml" />
     <entry file="file://$PROJECT_DIR$/login_verification/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
           <caret line="80" column="18" selection-start-line="48" selection-start-column="11" selection-end-line="80" selection-end-column="18" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/login_verification/src/main/java/com/itheima/service/impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1514,12 +1534,100 @@
             <caret line="27" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asyn_servlet/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="10" lean-forward="true" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Asyn_servlet/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" lean-forward="true" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="10" selection-start-line="1" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/servletcontext-response.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online_session_statis/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/fail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_verification/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/htmls/location2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/servletContext-response.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-1291">
+            <caret line="117" column="8" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="122" selection-end-column="38" />
+          </first_editor>
+          <second_editor>
             <markdownNavigatorState>
               <previewPanelState version="2.9.0">
-                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:223.50000883}}</jsState>
+                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:4204.0000199}}</jsState>
               </previewPanelState>
             </markdownNavigatorState>
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/download/DownloadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -1530,17 +1638,146 @@
           <second_editor>
             <markdownNavigatorState>
               <previewPanelState version="2.9.0">
-                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:107.5}}</jsState>
+                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:107}}</jsState>
               </previewPanelState>
             </markdownNavigatorState>
           </second_editor>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="424">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/b.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/TwoWaysToAchieveServletContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/AchieveFilesRealPathIncludeInDifferentPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/SetAttributeOnSharedDataSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/AchieveMimeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servletcontext/GetAttributeOnSharedDataSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ErrorFromServletCode5X.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/webapp/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/RedirectLinksByDifferentUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/TestRedirectWhetherSharedDataSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/ForWardInTheSameSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/EncodingProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/OutCharOrByteStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/utils/DownLoadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletcontext-response/src/main/java/cn/itcast/web/servlet/CheckCodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -1594,12 +1831,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>maven_web</last-edited>
+          <last-edited>Web|servletcontext-response</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -16,6 +16,7 @@
         <module>online_session_statis</module>
         <module>Asyn_servlet</module>
         <module>login_verification</module>
+        <module>servletcontext-response</module>
     </modules>
 
     <name>servlet-totals Maven Webapp</name>
