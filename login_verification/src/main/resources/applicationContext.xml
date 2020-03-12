@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置Dao层配置文件begin-->
+    <context:property-placeholder location="classpath:db.properties"/>
+    <!-- 数据库连接池 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!-- 现代的方式：Mapper动态代理开发，即配置生产sqlSession对象的工厂 -->
+    <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!-- ， 核心配置文件的位置 -->
+
+        <!--  加载pojo对象，方式一：扫描pojo包，给包下所有pojo对象起别名   -->
+        <property name="typeAliasesPackage" value="com.itheima.pojo"/>
+
+        <!--  加载pojo对象，方式二：通过Mybatis配置文件加载给包下所有pojo对象起别名-->
+        <property name="configLocation" value="classpath:sqlMapConfig.xml"/>
+    </bean>
+
+    <!-- Mapper动态代理开发 扫描包里面的mapper对象，扫描接口包路径，即生成包下面所有接口的对象的代理对象，并且放入到spring容器中, -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 基本包 -->
+        <property name="basePackage" value="com.itheima.mapper"/>
+    </bean>
+
+    <!--配置Dao层配置文件end-->
+
+    <!--service层配置文件begin-->
+    <!--组件扫描配置-->
+    <context:component-scan base-package="com.itheima.service"/>
+
+    <!--aop面向切面编程，切面就是切入点和通知的组合-->
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!--配置事务的通知-->
+    <tx:advice id="advice">
+        <tx:attributes>
+            <tx:method name="save*" propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="select*" read-only="true"/>
+            <tx:method name="*" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--配置切面-->
+    <aop:config>
+        <aop:pointcut id="pointcut" expression="execution(* com.itheima.service.impl.*.*(..))"/>
+        <aop:advisor advice-ref="advice" pointcut-ref="pointcut"/>
+    </aop:config>
+    <!--service层配置文件end-->
+
+
+</beans>

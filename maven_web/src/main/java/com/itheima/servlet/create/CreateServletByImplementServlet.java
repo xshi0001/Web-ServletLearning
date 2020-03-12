@@ -69,16 +69,16 @@ public class CreateServletByImplementServlet implements Servlet {
      * 提供服务的方法
      * 生命周期方法:对客户端响应的方法,该方法会被执行多次，每次请求该servlet都会执行该方法
      * <p>
-     * 调用 service() 方法来处理来自客户端（浏览器）的请求，并把格式化的响应写回给客户端
+     * 调用 com.itheima.service() 方法来处理来自客户端（浏览器）的请求，并把格式化的响应写回给客户端
      * <p>
-     * service方法由容器调用，service方法在适当的时候调用 doGet、doPost、doPut、doDelete 等方法。所以，您不用对 service() 方法做任何动作，您只需要根据来自客户端的请求类型来重写 doGet() 或 doPost() 即可。
+     * service方法由容器调用，service方法在适当的时候调用 doGet、doPost、doPut、doDelete 等方法。所以，您不用对 com.itheima.service() 方法做任何动作，您只需要根据来自客户端的请求类型来重写 doGet() 或 doPost() 即可。
      * <p>
      * doGet() 和 doPost() 方法是每次服务请求中最常用的方法。下面是这两种方法的特征。
      */
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
 
-        System.out.println("Hello Servlet,service。。。");
+        System.out.println("Hello Servlet,com.itheima.service。。。");
 
     }
 

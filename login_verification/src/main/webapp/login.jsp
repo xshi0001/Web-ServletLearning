@@ -23,7 +23,7 @@
 </head>
 
 <body>
-<form action="<%=request.getContextPath() %>/servlet/LoginServlet" method="post">
+<form action="<%=request.getContextPath() %>/servlet/loginVerificationByDataBaseServlet" method="post">
     用户名:<input type="text" name="username">
     密码:<input type="password" name="password">
     <input type="submit" value="提交">

@@ -28,12 +28,51 @@
 
 ## Setup
 Two ways to set up：
-* way 1 - External Tomcat to run
+* way 1 - External Tomcat to run idea j,lygkhnoio my
+  要将mapper.xml文件放到resource文件夹中，否则无法打包
+
 * way 2 - Maven Tomcat plugins
+  用maven的插件进行打包，打包命令如下,主要是要注意将mapper下面的xml文件打包
+  ```
+   <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <port>8888</port>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.5</version>
+                <executions>
+                    <execution>
+                        <id>copy-xmls</id>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/classes</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${basedir}/src/main/java</directory>
+                                    <includes>
+                                        <include>**/*.xml</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+  
+  ```
 
 ## Core Concepts
 Show examples of usage:
-![image_1.png](src/main/resources/image_1.png)
+![image_1.png](src/main/resources/img/image_1.png)
 
 
 ## Status

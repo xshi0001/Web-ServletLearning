@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.LoginMapper">
+    <resultMap id="BaseResultMap" type="com.itheima.pojo.Login">
+        <!--@mbg.generated-->
+        <!--@Table login-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="username" jdbcType="VARCHAR" property="username"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@mbg.generated-->
+        id, username, `password`
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from login
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        <!--@mbg.generated-->
+        delete from login
+        where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.itheima.pojo.Login" useGeneratedKeys="true">
+        <!--@mbg.generated-->
+        insert into login (username, `password`)
+        values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR})
+    </insert>
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.itheima.pojo.Login"
+            useGeneratedKeys="true">
+        <!--@mbg.generated-->
+        insert into login
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                username,
+            </if>
+            <if test="password != null">
+                `password`,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                #{password,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.itheima.pojo.Login">
+        <!--@mbg.generated-->
+        update login
+        <set>
+            <if test="username != null">
+                username = #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                `password` = #{password,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.itheima.pojo.Login">
+        <!--@mbg.generated-->
+        update login
+        set username = #{username,jdbcType=VARCHAR},
+        `password` = #{password,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <select id="selectByNameAndPassword" parameterType="Login" resultType="Login">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from login
+        where username = #{username,jdbcType=VARCHAR} and password=#{password,jdbcType=VARCHAR}
+    </select>
+
+
+</mapper>
