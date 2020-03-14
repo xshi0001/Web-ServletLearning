@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="login_verification" />
         <module name="Asyn_servlet" />
-        <module name="servletcontext-response" />
-        <module name="maven_web" />
         <module name="online_session_statis" />
+        <module name="servletcontext-response" />
+        <module name="session_cookie" />
+        <module name="maven_web" />
+        <module name="El_Jstl" />
+        <module name="login_verification" />
       </profile>
     </annotationProcessing>
   </component>

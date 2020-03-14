@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="login_verification.war">
+    <root id="archive" name="login-verification-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="login-verification:war exploded" />
     </root>
   </artifact>
