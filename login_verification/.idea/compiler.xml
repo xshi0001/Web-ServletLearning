@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="login_verification" />
+        <module name="login-verification" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="login-verification" target="1.8" />
       <module name="login_verification" target="1.8" />
     </bytecodeTargetLevel>
   </component>
