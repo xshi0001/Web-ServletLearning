@@ -8,6 +8,12 @@
         <!-- 2. 指定扫描包，会把包内所有的类都设置别名，别名的名称就是类名，大小写不敏感 -->
         <package name="cn.itcast.domain"/>
     </typeAliases>
+    <!--分页插件-->
+    <plugins>
+        <plugin interceptor="com.github.miemiedev.mybatis.paginator.OffsetLimitInterceptor">
+            <property name="dialectClass" value="com.github.miemiedev.mybatis.paginator.dialect.OracleDialect"/>
+        </plugin>
+    </plugins>
 
     <!--	Mapper的位置  Mapper.xml 写Sql语句的文件的位置-->
     <mappers>

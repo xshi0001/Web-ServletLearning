@@ -13,8 +13,6 @@ import java.util.List;
 
 /**
  * @Description:
- *
- *
  * @Author: JClearLove
  * @Date: 2020/03/14 08:27
  */
@@ -38,4 +36,19 @@ public class ConsumerServiceImplTest {
             System.out.println(consumer.getName());
         }
     }
+
+/*    @Test
+    public void findAllUseannotation() {
+        ConsumerServiceImpl consumerService = new ConsumerServiceImpl();
+        List<Consumer> consumers = consumerService.findAll(condition);
+        if (consumers != null) {
+            for (Consumer consumer : consumers) {
+                System.out.println(consumer.toString());
+            }
+
+        }
+
+    }*/
+
+
 }

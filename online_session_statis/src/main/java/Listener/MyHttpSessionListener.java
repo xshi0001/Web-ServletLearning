@@ -19,8 +19,6 @@ public class MyHttpSessionListener implements HttpSessionListener {
     public void sessionCreated(HttpSessionEvent se) {
         userNumber++;
         se.getSession().getServletContext().setAttribute("userNumber", userNumber);
-
-
     }
 
     @Override
