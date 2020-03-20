@@ -70,4 +70,17 @@ public class Consumer {
     public void setEmail(String email) {
         this.email = email == null ? null : email.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Consumer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                ", qq='" + qq + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

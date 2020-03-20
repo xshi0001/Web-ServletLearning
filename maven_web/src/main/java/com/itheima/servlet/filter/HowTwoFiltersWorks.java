@@ -20,8 +20,11 @@ public class HowTwoFiltersWorks implements Filter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+        // web-->服务器，resquest过滤，对resquest的对象进行增强,土匪第一次见
         System.out.println("HowTwoFiltersWorks执行前！！！");
+        // 经过过滤器之后，放行，到外婆家
         chain.doFilter(request, response);
+        // 服务器-->web，response过滤，对response的对象进行增强，土匪第二次见
         System.out.println("HowTwoFiltersWorks执行后！！！");
 
     }

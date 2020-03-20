@@ -1,12 +1,14 @@
 # Expression Language & Java Server Tag Library
 
 ## Contents
+
 1. [JSP](#jsp)
 2. [MVC Develop Mode](#mvc-develop-mode)
 3. [EL](#el)
 4. [JSTL](#jstl)
 
 ## JSP
+
 	1. 指令
 		* 作用：用于配置JSP页面，导入资源文件
 		* 格式：
@@ -50,8 +52,8 @@
 			* exception					Throwable					异常对象
 
 
-
 ## MVC Develop Mode
+
 	1. jsp演变历史
 		1. 早期只有servlet，只能使用response输出标签数据，非常麻烦
 		2. 后来又jsp，简化了Servlet的开发，如果过度使用jsp，在jsp中即写大量的java代码，有写html表，造成难于维护，难于分工协作
@@ -79,14 +81,14 @@
 ![image](src/main/webapp/img/image.png)
 
 ## 三层架构：软件设计架构
+
 	1. 界面层(表示层)：用户看的得界面。用户可以通过界面上的组件和服务器进行交互
 	2. 业务逻辑层：处理业务逻辑的。
 	3. 数据访问层：操作数据存储文件。
 
 
-
-
 ## EL
+
 	1. 概念：Expression Language 表达式语言
 	2. 作用：替换和简化jsp页面中java代码的编写
 	3. 语法：${表达式}
@@ -140,6 +142,7 @@
 
 
 ## JSTL
+
 	1. 概念：JavaServer Pages Tag Library  JSP标准标签库
 		* 是由Apache组织提供的开源的免费的jsp标签		<标签>
 
@@ -170,6 +173,7 @@
 
 
 ## 案例：用户信息列表展示
+
 	1. 需求：用户信息的增删改查操作
 	2. 设计：
 		1. 技术选型：Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat
@@ -195,23 +199,40 @@
 	
 
 	4. 测试
-       http://localhost:9293/El_Jstl_war/index.jsp --> http://localhost:9293/El_Jstl_war/userListServlet
+       http://localhost:9293/El_Jstl/index.jsp --> http://localhost:9293/El_Jstl/userListServlet
 	5. 部署运维
 
 ![image_1](src/main/webapp/img/image_1.png)
 
+## 案例：综合练习
+
+	1. 综合练习
+		1. 简单功能
+			1. 列表查询 (已完成)
 
 
 
+2. 登录(已完成)
+
+3. 添加
 
 
 
+4. 删除
 
 
 
+5. 修改-注意
+   [requestScope与sessionScope的区别](src/main/webapp/update.jsp#L59)
 
 
+6. 删除选中
 
+
+7. 分页查询	* 好处:1.减轻服务器内存的开销	2. 提升用户体验
+
+
+8. 复杂条件查询
 
 
 
